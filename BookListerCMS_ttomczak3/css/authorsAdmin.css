@@ -1,0 +1,67 @@
+/* 
+    Document   : authorsAdmin
+    Created on : Apr 13, 2010, 10:07:51 AM
+    Author     : jcooley
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    text-align: center;
+}
+
+h2 {
+    color: navy;
+    font-family: Trebuchet MS, Verdana;
+}
+
+table {
+    width: 50%;
+    border-style: ridge;
+    border-width: 4px;
+    margin: auto;
+}
+
+td {
+    padding: 4px;
+    text-align: left;
+}
+
+td.author {
+    color: #CCCC99;
+    background-color: #336699;
+    font-family: Tempus Sans ITC, Arial Narrow;
+    /*vertical-align: top;*/
+}
+
+td.authorid {
+    color: peachpuff;
+    background-color: #336699;
+    font-family: papyrus, Arial Narrow;
+    vertical-align: top;
+    font-weight: 600;
+    text-align: right;
+}
+
+td.links {
+    font-family: Arial Narrow;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: bottom;
+    background-color: #CCCC99;
+}
+
+td.author:first-letter {
+    font-family: Algerian, Tekton Pro, Arial;
+    font-size: 200%;
+}
+
+ul {
+    list-style-type: none;
+}
